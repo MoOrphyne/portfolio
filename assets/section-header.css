@@ -1,0 +1,51 @@
+.section {
+  background-color: #F5F5F5;
+  /*padding: 90px 32px;*/
+}
+
+.section-header {
+  padding: 125px 0;
+  width: 250px;
+  opacity: 0.07;
+  transition: padding-left .6s, opacity .5s ease-out;
+  align-self: stretch;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .2);
+}
+.text-orientation {
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+  transform: rotate(180deg);
+  font-weight: bolder;
+  font-size: 45px;
+}
+.section > .all {
+  padding: 40px;
+}
+#skill {
+  background: -webkit-linear-gradient(40deg, #15D1EB 0%, #11A4F6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#experience {
+  background: -webkit-linear-gradient(40deg, #11A4F6 0%, #117BF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#education {
+  background: -webkit-linear-gradient(40deg, #117BF6 0%, #5713EA 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#interest {
+  background: -webkit-linear-gradient(40deg, #5713EA 0%, #9D2AF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section:hover > .section-header {
+  opacity: 1;
+  padding-left: 60px;
+}
+.section:hover > .all {
+
+}

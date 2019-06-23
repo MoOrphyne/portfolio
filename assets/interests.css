@@ -1,0 +1,57 @@
+.interests {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  text-align: center;
+  align-items: center;
+}
+.interest-header {
+  font-size: 100px;
+  padding-bottom: 16px;
+  transition: font-size .3s ease-out, background .3s ease-out;
+  color: lightgray;
+}
+.interest-content > h6 {
+  font-size: 18px;
+  transition: font-size .3s ease-out;
+}
+
+.interest-content:hover > .interest-header{
+  font-size: 130px;
+}
+.interest-content:hover > h6 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.interest-content:hover > .interest-header > #drawing {
+  background: -webkit-linear-gradient(40deg, #15D1EB 10%, #11A4F6 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-header > #traveling {
+  background: -webkit-linear-gradient(40deg, #15D1EB 0%, #11A4F6 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-header > #sports {
+   background: -webkit-linear-gradient(40deg, #11A4F6 0%, #117BF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-header > #reading {
+  background: -webkit-linear-gradient(40deg, #117BF6 0%, #5713EA 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-header > #video-games {
+  background: -webkit-linear-gradient(40deg, #5713EA 0%, #9D2AF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-header > #coding {
+  background: -webkit-linear-gradient(40deg, #5713EA 0%, #9D2AF6 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,53 @@
+#navbar {
+  width: 100%;
+  top: 0;
+  position: fixed !important;
+  z-index: 300;
+  transition: background-color 0.4s ease-out, height .4s ease-out;
+}
+.navbar {
+  height: 80px;
+}
+.navbar-logo > img {
+  opacity: 0;
+}
+.nav-item > a {
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  padding-right: 30px;
+  transition: font-size .3s ease-out;
+}
+.nav-item > a:hover {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bolder;
+  color: white;
+}
+
+a > .fas {
+  padding-left: 15px;
+  opacity: 0;
+  font-size: 27px;
+  color: white;
+  transition: font-size .2s ease-out;
+}
+a > .fas:hover {
+  font-size: 32px;
+}
+
+nav.scroll {
+  height: 50px;
+}
+nav.one {
+  background-color: #11A4F6;
+}
+nav.two {
+  background-color: #117BF6;
+}
+nav.three {
+  background-color: #5713EA;
+}
+nav.scroll > .navbar-logo > a > .fas {
+  opacity: 1;
+}

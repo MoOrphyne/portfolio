@@ -1,0 +1,33 @@
+.xp-description > a > img {
+  height: 40px;
+  width: 40px;
+  padding-bottom: 5px;
+}
+.xp-description > a > .fab {
+  font-size: 35px;
+  padding-right: 8px;
+  background: -webkit-linear-gradient(190deg, #11A4F6 0%, #117BF6 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.xp-description > a {
+  font-weight: bold;
+  font-size: 18px;
+  color: gray;
+  transition: padding-left .4s ease-out;
+  display: flex;
+  align-items: flex-end;
+}
+
+.xp-description > a:hover {
+  text-decoration: none;
+  padding-left: 16px;
+    background: -webkit-linear-gradient(40deg, #11A4F6 0%, #117BF6 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.xp-description > a:hover > .fab {
+    background: -webkit-linear-gradient(40deg, #11A4F6 0%, #117BF6 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

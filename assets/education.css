@@ -1,0 +1,66 @@
+.education {
+  width: 90%;
+  margin: 20px auto;
+}
+.education-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.education-header {
+  align-items: center;
+  position: absolute;
+}
+.education-header > h6 {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.education-header > img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  padding-right: 8px;
+}
+.education-content {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  padding: 16px;
+  border-radius: 5px;
+  transition: width .4s ease-out;
+  margin-bottom: 32px;
+}
+.education-description {
+  margin-left: 72px;
+  padding-top: 50px;
+}
+.education-description > p {
+  margin: 0;
+}
+.education-description > h5 {
+  color: gray;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+.education-description > a {
+  font-weight: bold;
+  color: gray;
+  font-size: 18px;
+  transition: padding-left .4s ease-out;
+}
+
+.education-description > a > .fab {
+  font-size: 30px;
+  padding-right: 4px;
+}
+
+.education-description > a:hover {
+  padding-left: 16px;
+  background: -webkit-linear-gradient(40deg, #5713EA 0%, #9D2AF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.education-description > a:hover > .fab {
+  background: -webkit-linear-gradient(40deg, #5713EA 0%, #9D2AF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
