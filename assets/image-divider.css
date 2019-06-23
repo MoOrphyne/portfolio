@@ -1,15 +1,24 @@
 .image-divider {
   width: 100%;
-  height: 110px;
+  height: 100px;
   margin: 6px 0;
-  background-image: url("images/jellyfish.jpg");
+  background-image: url("images/artwork01.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .6;
+  opacity: .95;
 }
 
-.image-divider > .image {
 
+.image-divider-footer {
+  width: 100%;
+  height: 305px;
+  margin: 6px 0;
+  background-image: url("images/artwork01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
 }

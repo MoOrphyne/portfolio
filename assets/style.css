@@ -5,13 +5,14 @@
 @import url("banner-text.css");
 @import url("banner-button.css");
 @import url("about-me.css");
-@import url("section-animation.css");
 @import url("skills.css");
 @import url("xp.css");
 @import url("logos.css");
 @import url("education.css");
 @import url("interests.css");
 @import url("contact.css");
+@import url("profile-image.css");
+@import url("footer-icons.css");
 
 
 html {

@@ -1,0 +1,36 @@
+.footer-content > a > i {
+  font-size: 50px;
+  color: white;
+  padding: 16px;
+  transition: font-size .2s ease-out;
+}
+
+.footer-content > a:hover > i {
+  font-size: 55px;
+  /*text-shadow: 0 4px 6px rgba(255, 255, 255, .7);*/
+}
+
+.footer-content > a:hover > #linkedin {
+  background: -webkit-linear-gradient(40deg, #15D1EB 0%, #11A4F6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-content > a:hover > #artstation {
+   background: -webkit-linear-gradient(40deg, #11A4F6 0%, #117BF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-content > a:hover > #facebook {
+  background: -webkit-linear-gradient(40deg, #4299FF 0%, #5713EA 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-content > a:hover > #instagram {
+  background: -webkit-linear-gradient(40deg, #5713EA 15%, #E80DFB 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

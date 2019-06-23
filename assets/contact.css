@@ -1,24 +1,21 @@
+.footer {
+  padding: 65px;
+}
+
 .footer-header {
   text-align: center;
-  margin-top: 32px;
 }
 .footer-header > h3 {
   font-weight: bold;
   color: white;
   font-size: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 32px;
 }
 .footer-content {
-  margin-top: 32px;
   display: flex;
   justify-content: center;
 }
 
-.footer-content > a > i {
-  font-size: 50px;
-  color: white;
-  padding: 16px;
-}
 .footer-divider {
   height: 200px;
 }
