@@ -1,0 +1,63 @@
+.interest-detail > p {
+  font-style: italic;
+  color: gray;
+  opacity: 0;
+  transition: opacity .3s ease-out;
+}
+
+.interest-detail > p > i {
+  font-size: 24px;
+}
+.interest-detail > p > a > i {
+  color: gray;
+}
+
+.interest-detail > p > a {
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+  transition: font-size .2s ease-out;
+}
+.interest-detail > p > a:hover {
+  font-size: 19px;
+  background: -webkit-linear-gradient(40deg, #15D1EB 10%, #11A4F6 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-detail > p > a:hover > i {
+  background: -webkit-linear-gradient(40deg, #15D1EB 10%, #11A4F6 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.interest-content:hover > .interest-detail > p {
+  opacity: 1;
+}
+
+.interest-content:hover > .interest-detail > p > .fa-passport {
+    background: -webkit-linear-gradient(40deg, #15D1EB 0%, #11A4F6 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-detail > p > .fa-dumbbell {
+   background: -webkit-linear-gradient(40deg, #11A4F6 0%, #117BF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-detail > p > .fa-jedi {
+  background: -webkit-linear-gradient(40deg, #117BF6 0%, #5713EA 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.interest-content:hover > .interest-detail > p > .fa-ghost {
+  background: -webkit-linear-gradient(40deg, #5713EA 0%, #9D2AF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interest-content:hover > .interest-detail > p > .fa-codepen {
+  background: -webkit-linear-gradient(40deg, #5713EA 0%, #9D2AF6 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

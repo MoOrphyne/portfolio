@@ -25,14 +25,14 @@
   color: white;
 }
 
-a > .fas {
+.navbar-logo > a > .fas {
   padding-left: 15px;
   opacity: 0;
   font-size: 27px;
   color: white;
   transition: font-size .2s ease-out;
 }
-a > .fas:hover {
+.navbar-logo > a > .fas:hover {
   font-size: 32px;
 }
 
