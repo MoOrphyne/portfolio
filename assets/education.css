@@ -14,21 +14,34 @@
 .education-header > h6 {
   font-weight: bolder;
   font-size: 18px;
+  transition: padding-left .4s ease-out;
 }
 .education-header > img {
   width: 70px;
   height: 70px;
   object-fit: contain;
   padding-right: 8px;
+  transition: margin-top .4s ease-out;
 }
 .education-content {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 40%;
   padding: 16px;
   border-radius: 5px;
-  transition: width .4s ease-out;
+  transition: width .4s ease-out, box-shadow .3s ease-out;
   margin-bottom: 32px;
 }
+.education-content:hover {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .2);
+}
+.education-content:hover > .education-header > img {
+  margin-top: 15px;
+}
+.education-content:hover > .education-header > h6 {
+  transition-delay: .4s;
+  padding-left: 140px;
+}
+
 .education-description {
   margin-left: 72px;
   padding-top: 50px;
