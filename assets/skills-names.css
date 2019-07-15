@@ -1,0 +1,41 @@
+.skills-column > li > img {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+  transition: width .3s ease-out, height .3s ease-out;
+}
+.skills-column > li {
+  list-style: none;
+  margin-bottom: 8px;
+  color: gray;
+  transition: font-size .3s ease-out;
+}
+
+.skills-column > li:hover {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.skills-column > li:hover > img {
+  width: 52px;
+  height: 52px;
+}
+.skill-column-a:hover {
+    background: -webkit-linear-gradient(40deg, #15D1EB 0%, #11A4F6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill-column-b:hover {
+   background: -webkit-linear-gradient(40deg, #11A4F6 0%, #117BF6 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill-column-c:hover {
+  background: -webkit-linear-gradient(40deg, #4299FF 0%, #5713EA 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill-column-d:hover {
+  background: -webkit-linear-gradient(40deg, #5713EA 15%, #E80DFB 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="assets/style.css">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/71fc4e59da.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/71fc4e59da.js"></script>
 
-  <title>Delphine Cretegny - Front-End Dev</title>
-</head>
+    <title>Delphine Cretegny - Front-End Dev</title>
+  </head>
 <body>
 
 <!-- NAVBAR -->
@@ -40,35 +40,7 @@
     </ul>
   </nav>
 
-<!-- BANNER -->
-<a id="section0"></a>
-  <div class="banner">
-    <div class="banner-text">
-      <h1>Delphine Cretegny</h1>
-      <div class="Iam">
-        <p>I am</p>
-        <b>
-          <div class="innerIam">
-            passionate<br />
-            very curious<br />
-            in love with visual designs<br />
-            open to new opportunities<br />
-            available<br />
-          </div>
-        </b>
-      </div>
-      <div class="banner-button">
-        <h3>UI/UX Designer - Front End</h3>
-        <a href="#section1" class="button mr-2">ABOUT ME</a>
-        <a href="assets/images/cv_DelphineCretegny_2019.pdf" target="_blank" class="button">MY RESUME</a>
-      </div>
-    </div>
-
-
-    <div class="banner-image">
-      <img src="" alt="">
-    </div>
-  </div>
+  <%= render 'shared/banner' %>
 
 <!-- SECTION 1 -->
   <a id="section1"></a>
@@ -111,22 +83,22 @@
       <h3 class="text-orientation" id="skill">SKILLS</h3>
     </div>
 
-    <div class="all skills d-flex justify-content-around">
+    <div class="all skills d-flex">
       <div class="skills-content">
         <div class="skills-header">
           <h6>UI/UX</h6>
         </div>
         <div class="skills-names">
-          <ul class="d-flex justify-content-between">
+          <ul class="d-flex">
             <div class="skills-column d-flex flex-column">
-              <li><img src="assets/images/figma-icon.png" alt="figma">Figma</li>
-              <li><img src="assets/images/procreate-icon.png" alt="procreate">Procreate</li>
-              <li><img src="assets/images/photoshop-icon.png" alt="photoshop">Photoshop</li>
+              <li class="skill-column-a"><img src="assets/images/figma-icon.png" alt="figma">Figma</li>
+              <li class="skill-column-a"><img src="assets/images/procreate-icon.png" alt="procreate">Procreate</li>
+              <li class="skill-column-a"><img src="assets/images/photoshop-icon.png" alt="photoshop">Photoshop</li>
             </div>
             <div class="skills-column d-flex flex-column">
-              <li><img src="assets/images/illustrator-icon.svg" alt="illustrator">Illustrator</li>
-              <li><img src="assets/images/AE-icon.jpg" alt="after-effects">After Effects</li>
-              <li><img src="assets/images/flash-icon.png" alt="flash">Flash</li>
+              <li class="skill-column-b"><img src="assets/images/illustrator-icon.svg" alt="illustrator">Illustrator</li>
+              <li class="skill-column-b"><img src="assets/images/AE-icon.jpg" alt="after-effects">After Effects</li>
+              <li class="skill-column-b"><img src="assets/images/flash-icon.png" alt="flash">Flash</li>
             </div>
           </ul>
         </div>
@@ -136,16 +108,16 @@
           <h6>DEV</h6>
         </div>
         <div class="skills-names">
-          <ul class="d-flex justify-content-between">
+          <ul class="d-flex">
             <div class="skills-column d-flex flex-column">
-              <li><img src="assets/images/html-icon.png" alt="html">HTML</li>
-              <li><img src="assets/images/css-icon.png" alt="css">CSS</li>
-              <li><img src="assets/images/javascript-icon.png" alt="js">JavaScript</li>
+              <li class="skill-column-c"><img src="assets/images/html-icon.png" alt="html">HTML</li>
+              <li class="skill-column-c"><img src="assets/images/css-icon.png" alt="css">CSS</li>
+              <li class="skill-column-c"><img src="assets/images/javascript-icon.png" alt="js">JavaScript</li>
             </div>
             <div class="skills-column d-flex flex-column">
-              <li><img src="assets/images/bootstrap-icon.png" alt="bootstrap">Bootstrap</li>
-              <li><img src="assets/images/ruby-icon.png" alt="ruby">Ruby On Rails</li>
-              <li><img src="assets/images/git-icon.png" alt="git">Git</li>
+              <li class="skill-column-d"><img src="assets/images/bootstrap-icon.png" alt="bootstrap">Bootstrap</li>
+              <li class="skill-column-d"><img src="assets/images/ruby-icon.png" alt="ruby">Ruby On Rails</li>
+              <li class="skill-column-d"><img src="assets/images/git-icon.png" alt="git">Git</li>
             </div>
           </ul>
         </div>

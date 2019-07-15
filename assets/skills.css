@@ -1,30 +1,30 @@
 .skills {
   margin: 80px auto;
   width: 1100px;
-  box-shadow: 0px 2px 40px rgba(0, 0, 0, .1);
-  padding: 16px;
+  height: 330px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .1);
+  padding: 40px 60px !important;
   border-radius: 8px;
+  transition: box-shadow .3s ease-out;
+}
+.skills:hover {
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, .2);
 }
 .skills-content {
-  width: 400px;
+  width: 550px;
 }
 .skills-header > h6{
   font-weight: bolder;
   font-size: 18px;
   padding-bottom: 16px;
 }
-
+.skills-names {
+  padding-left: 16px;
+}
 .skills-names > ul {
   padding: 16px;
 }
 
-.skills-column > li > img {
-  width: 50px;
-  height: 50px;
-  margin-right: 16px;
-}
-.skills-column > li {
-  list-style: none;
-  margin-bottom: 8px;
-  color: gray;
+.skills-column {
+  width: 50%;
 }

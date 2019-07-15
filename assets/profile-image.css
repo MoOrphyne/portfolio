@@ -4,4 +4,8 @@
   border-radius: 6px;
   object-fit: cover;
   object-position: center;
+  transition: width .3s ease-out;
+}
+.about-me:hover > .profile-image > img {
+  width: 270px;
 }
