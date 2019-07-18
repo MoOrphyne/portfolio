@@ -4,6 +4,7 @@
   position: fixed !important;
   z-index: 300;
   transition: background-color 0.4s ease-out, height .4s ease-out;
+  padding: 0;
 }
 .navbar {
   height: 80px;
@@ -27,13 +28,27 @@
 
 .navbar-logo > a > .fas {
   padding-left: 15px;
-  opacity: 0;
+  display: none;
   font-size: 27px;
   color: white;
   transition: font-size .2s ease-out;
 }
 .navbar-logo > a > .fas:hover {
   font-size: 32px;
+}
+.navbar-logo > a:hover {
+  text-decoration: none;
+}
+.navbar-logo > .mobile-version-link {
+  margin-left: 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  transition: font-size .3s ease-out;
+}
+.navbar-logo > .mobile-version-link:hover {
+  font-size: 17px;
+  font-weight: bolder;
 }
 
 nav.scroll {
@@ -48,6 +63,34 @@ nav.two {
 nav.three {
   background-color: #5713EA;
 }
-nav.scroll > .navbar-logo > a > .fas {
+nav.scroll > .navbar-logo > a > .fas, nav.scroll > .navbar-toggler {
+  display: block;
+}
+nav.scroll > .navbar-collapse {
   opacity: 1;
+}
+ /*mobile*/
+.logo-mobile {
+  margin: auto 16px;
+ }
+ button:focus {
+  outline: none !important;
+ }
+.navbar-toggler {
+  display: none;
+  border: 1px solid white !important;
+  padding-bottom: 4px;
+  margin: auto 32px;
+  transition: border .2s ease-out;
+ }
+.navbar-toggler-icon-mobile {
+  color: white;
+}
+.navbar-toggler:hover {
+  border: 3px double white !important;
+}
+.navbar-collapse {
+  opacity: 0;
+  background-color: inherit;
+  padding: 8px 32px;
 }

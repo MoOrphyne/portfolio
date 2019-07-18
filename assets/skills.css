@@ -28,3 +28,18 @@
 .skills-column {
   width: 50%;
 }
+/*MOBILE*/
+.skills-xs {
+  margin: 32px auto auto 0;
+}
+.skills-content-xs {
+  height: 300px;
+  padding: 0 16px;
+}
+.skills-column-xs {
+  width: 60%;
+  margin-bottom: 8px;
+}
+.skills-names-xs > ul {
+  padding-left: 0;
+}

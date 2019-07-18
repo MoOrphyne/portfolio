@@ -19,4 +19,24 @@
   font-size: 70px;
   font-weight: bolder;
 }
+/*mobile*/
+.banner-xs {
+  background-image: url("images/artwork01.jpg");
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 55% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 6px;
+}
+.banner-text-xs {
+  color: white;
+  position: absolute;
+  margin: 150px 32px;
+}
 
+.banner-text-xs > h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}

@@ -29,3 +29,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/*MOBILE*/
+.about-me-xs {
+  width: 90%;
+  margin: 32px auto;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .05);
+  border-radius: 8px;
+  background-color: white:
+}
+.all-xs > .xs {
+  width: 100% !important;
+}

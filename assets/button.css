@@ -41,3 +41,21 @@
   background: linear-gradient(40deg, #5713EA 0%, #9D2AF6 80%);
 }
 
+/*MOBILE*/
+.button-xs {
+  background: linear-gradient(40deg, #11A4F6 0%, #15D1EB 60%);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 15px;
+  transition: font-size .3s ease-out, padding .3s ease-out;
+}
+.button-xs:hover {
+  padding: 11px 30px;
+  transition: .3s ease;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  background: linear-gradient(40deg, #5713EA 0%, #9D2AF6 80%);
+}

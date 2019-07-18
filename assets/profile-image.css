@@ -9,3 +9,18 @@
 .about-me:hover > .profile-image > img {
   width: 270px;
 }
+/*MOBILE*/
+.profile-image-xs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+}
+.profile-image-xs > img {
+  width: 30%;
+  height: 35%;
+  border-radius: 6px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+}

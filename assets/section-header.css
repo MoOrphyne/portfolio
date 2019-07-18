@@ -46,6 +46,21 @@
   opacity: 1;
   padding-left: 60px;
 }
-.section:hover > .all {
-
+/* MOBILE*/
+.section-xs {
+  padding-bottom: 16px;
+}
+.section-header-xs {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .2);
+}
+.section-text {
+  font-weight: bolder;
+  font-size: 32px;
+}
+.section > .all-xs {
+  padding: 16px;
 }

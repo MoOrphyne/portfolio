@@ -22,3 +22,7 @@
   background-size: cover;
   opacity: 1;
 }
+/*MOBILE*/
+.divider-xs {
+  background-position: 55% 0 !important;
+}

@@ -39,3 +39,29 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* MOBILE */
+.skills-column-xs > li > img {
+  width: 60px;
+  height: 60px;
+  transition: width .3s ease-out, height .3s ease-out;
+  margin-bottom: 8px;
+}
+.skills-column-xs > li {
+  list-style: none;
+  margin-bottom: 8px;
+  color: gray;
+  transition: font-size .3s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-column-xs > li:hover {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+}
+.skills-column-xs > li:hover > img {
+  width: 62px;
+  height: 62px;
+}
