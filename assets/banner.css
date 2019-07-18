@@ -23,7 +23,6 @@
 .banner-xs {
   background-image: url("images/artwork01.jpg");
   height: 500px;
-  max-width: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: 55% 0;
