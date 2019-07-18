@@ -9,6 +9,9 @@
 .navbar {
   height: 80px;
 }
+.navbar-logo {
+  margin: auto 16px;
+}
 .navbar-logo > img {
   opacity: 0;
 }
