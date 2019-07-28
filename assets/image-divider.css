@@ -23,12 +23,13 @@
   opacity: 1;
 }
 /*MOBILE*/
-.divider-xs {width: 100%;
+.divider-xs {
+  width: 100%;
   height: 100px;
   margin: 6px 0;
   background-image: url("images/artwork01.jpg");
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   opacity: .95;
-  background-position: 55% 0 !important;
+  background-position: 55% 0;
 }
