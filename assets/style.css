@@ -15,6 +15,7 @@
 @import url("footer-icons.css");
 @import url("interest-details.css");
 @import url("skills-names.css");
+@import url("links-page.css");
 
 
 html {
@@ -32,4 +33,9 @@ html {
   width: 100%;
   height: 4000px;
   background:  linear-gradient(220deg, #15D1EB 0%, #11A4F6 20%, #117BF6 40%, #5713EA 60%, #9D2AF6 80%);
+}
+
+.links-version {
+  color: black;
+  height: 100%;
 }
